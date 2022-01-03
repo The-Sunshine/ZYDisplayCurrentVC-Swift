@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2259408427808C0200245BAC /* ZYDisplayCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2259408227808C0200245BAC /* ZYDisplayCurrentVC.swift */; };
-		2259408527808C0200245BAC /* UIViewController+ZYDisplayCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2259408327808C0200245BAC /* UIViewController+ZYDisplayCurrentVC.swift */; };
 		2259408827808C2400245BAC /* ZYSwiftSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2259408727808C2400245BAC /* ZYSwiftSwizzling.swift */; };
 		22B378BD27807C1300C5BA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B378BC27807C1300C5BA4A /* AppDelegate.swift */; };
 		22B378BF27807C1300C5BA4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B378BE27807C1300C5BA4A /* SceneDelegate.swift */; };
@@ -17,11 +15,11 @@
 		22B378C627807C1600C5BA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B378C527807C1600C5BA4A /* Assets.xcassets */; };
 		22B378C927807C1600C5BA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B378C727807C1600C5BA4A /* LaunchScreen.storyboard */; };
 		22B378D727807C7600C5BA4A /* UIApplication+ZYSwiftLoadFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B378D627807C7600C5BA4A /* UIApplication+ZYSwiftLoadFunction.swift */; };
+		5A101989278341C7007FFA28 /* ZYDisplayCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A101987278341C7007FFA28 /* ZYDisplayCurrentVC.swift */; };
+		5A10198A278341C7007FFA28 /* UIViewController+ZYDisplayCurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A101988278341C7007FFA28 /* UIViewController+ZYDisplayCurrentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2259408227808C0200245BAC /* ZYDisplayCurrentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYDisplayCurrentVC.swift; sourceTree = "<group>"; };
-		2259408327808C0200245BAC /* UIViewController+ZYDisplayCurrentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ZYDisplayCurrentVC.swift"; sourceTree = "<group>"; };
 		2259408727808C2400245BAC /* ZYSwiftSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYSwiftSwizzling.swift; sourceTree = "<group>"; };
 		22B378B927807C1300C5BA4A /* ZYDisplayCurrentVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYDisplayCurrentVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B378BC27807C1300C5BA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +30,8 @@
 		22B378C827807C1600C5BA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B378CA27807C1600C5BA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22B378D627807C7600C5BA4A /* UIApplication+ZYSwiftLoadFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+ZYSwiftLoadFunction.swift"; sourceTree = "<group>"; };
+		5A101987278341C7007FFA28 /* ZYDisplayCurrentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYDisplayCurrentVC.swift; sourceTree = "<group>"; };
+		5A101988278341C7007FFA28 /* UIViewController+ZYDisplayCurrentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ZYDisplayCurrentVC.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,16 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2259408127808C0200245BAC /* ZYDisplayCurrentVC */ = {
-			isa = PBXGroup;
-			children = (
-				2259408227808C0200245BAC /* ZYDisplayCurrentVC.swift */,
-				2259408327808C0200245BAC /* UIViewController+ZYDisplayCurrentVC.swift */,
-			);
-			name = ZYDisplayCurrentVC;
-			path = ../../demo/Swift/ZYExampleSwift/ZYExampleSwift/Lib/ZYDisplayCurrentVC;
-			sourceTree = "<group>";
-		};
 		2259408627808C2400245BAC /* ZYSwiftSwizzling */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +75,9 @@
 				22B378BC27807C1300C5BA4A /* AppDelegate.swift */,
 				22B378BE27807C1300C5BA4A /* SceneDelegate.swift */,
 				22B378C027807C1300C5BA4A /* ViewController.swift */,
+				5A101986278341C7007FFA28 /* ZYDisplayCurrentVC */,
 				22B378D527807C7600C5BA4A /* ZYSwiftLoadFunction */,
 				2259408627808C2400245BAC /* ZYSwiftSwizzling */,
-				2259408127808C0200245BAC /* ZYDisplayCurrentVC */,
 				22B378C227807C1300C5BA4A /* Main.storyboard */,
 				22B378C527807C1600C5BA4A /* Assets.xcassets */,
 				22B378C727807C1600C5BA4A /* LaunchScreen.storyboard */,
@@ -102,6 +92,15 @@
 				22B378D627807C7600C5BA4A /* UIApplication+ZYSwiftLoadFunction.swift */,
 			);
 			path = ZYSwiftLoadFunction;
+			sourceTree = "<group>";
+		};
+		5A101986278341C7007FFA28 /* ZYDisplayCurrentVC */ = {
+			isa = PBXGroup;
+			children = (
+				5A101987278341C7007FFA28 /* ZYDisplayCurrentVC.swift */,
+				5A101988278341C7007FFA28 /* UIViewController+ZYDisplayCurrentVC.swift */,
+			);
+			path = ZYDisplayCurrentVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,12 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2259408527808C0200245BAC /* UIViewController+ZYDisplayCurrentVC.swift in Sources */,
-				2259408427808C0200245BAC /* ZYDisplayCurrentVC.swift in Sources */,
 				22B378C127807C1300C5BA4A /* ViewController.swift in Sources */,
+				5A10198A278341C7007FFA28 /* UIViewController+ZYDisplayCurrentVC.swift in Sources */,
 				22B378BD27807C1300C5BA4A /* AppDelegate.swift in Sources */,
 				22B378BF27807C1300C5BA4A /* SceneDelegate.swift in Sources */,
 				22B378D727807C7600C5BA4A /* UIApplication+ZYSwiftLoadFunction.swift in Sources */,
+				5A101989278341C7007FFA28 /* ZYDisplayCurrentVC.swift in Sources */,
 				2259408827808C2400245BAC /* ZYSwiftSwizzling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
